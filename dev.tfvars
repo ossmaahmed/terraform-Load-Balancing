@@ -1,0 +1,10 @@
+cidr_vpc = "10.0.0.0/16"
+tag_vpc = "osama"
+public_sub_env = [ "10.0.0.0/24","10.0.1.0/24" ]
+private_sub_env = [ "10.0.2.0/24","10.0.3.0/24" ]
+tags_of_public = [ "public-1","public-2" ]
+tags_of_private = [ "private-1","private-2" ]
+zones_of_sub = [ "us-east-1a","us-east-1b" ]
+ami_is = "ami-0c55b159cbfafe1f0"
+instance_type_is = "t2.micro"
+type = "application"
